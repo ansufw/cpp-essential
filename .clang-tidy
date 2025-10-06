@@ -1,0 +1,20 @@
+Checks: >
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  readability-*,
+  readability-braces-around-statements,
+  bugprone-*,
+  cppcoreguidelines-*,
+  misc-*,
+  portability-*,
+  unused-*
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*'
+FormatStyle: none
+
+CheckOptions:
+  - key:             modernize-use-nullptr.NullMacros
+    value:           'NULL'

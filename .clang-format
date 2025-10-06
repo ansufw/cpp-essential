@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+ColumnLimit: 100
+AccessModifierOffset: -2
+SpaceAfterCStyleCast: true
+ReflowComments: true
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  BeforeElse: false
+  BeforeCatch: false
+  BeforeLambdaBody: false

@@ -1,0 +1,3 @@
+/Users/mw/Desktop/learning-c/build/CMakeFiles/my_app.dir
+/Users/mw/Desktop/learning-c/build/CMakeFiles/edit_cache.dir
+/Users/mw/Desktop/learning-c/build/CMakeFiles/rebuild_cache.dir
