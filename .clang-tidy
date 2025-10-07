@@ -1,20 +1,23 @@
 Checks: >
   clang-diagnostic-*,
   clang-analyzer-*,
-  modernize-*,
   performance-*,
   readability-*,
   readability-braces-around-statements,
   bugprone-*,
-  cppcoreguidelines-*,
+  -cppcoreguidelines-*,
+  -readability-magic-numbers,
+  -modernize-*,
   misc-*,
   portability-*,
   unused-*
 
-WarningsAsErrors: ''
-HeaderFilterRegex: '.*'
+WarningsAsErrors: ""
+HeaderFilterRegex: ".*"
 FormatStyle: none
 
 CheckOptions:
-  - key:             modernize-use-nullptr.NullMacros
-    value:           'NULL'
+  - key: readability-identifier-length.IgnoredVariableNames
+    value: "x|y|z"
+  - key: readability-identifier-length.IgnoredParameterNames
+    value: "x|y|z"

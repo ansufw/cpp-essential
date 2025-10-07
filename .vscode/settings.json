@@ -22,6 +22,6 @@
         "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+        "cpp": "cd $dir && clang++ -std=c++20 $fileName -o output_$fileNameWithoutExt && $dir/output_$fileNameWithoutExt"
     }
 }

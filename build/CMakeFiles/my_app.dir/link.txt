@@ -1,1 +1,0 @@
-/opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/my_app.dir/chap4-1_type-alias/main.cc.o" -o my_app

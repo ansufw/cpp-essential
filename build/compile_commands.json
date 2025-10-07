@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/mw/Desktop/learning-c/build",
-  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/mw/Desktop/learning-c/include -std=gnu++20 -arch arm64 -o CMakeFiles/my_app.dir/chap4-1_type-alias/main.cc.o -c /Users/mw/Desktop/learning-c/chap4-1_type-alias/main.cc",
-  "file": "/Users/mw/Desktop/learning-c/chap4-1_type-alias/main.cc",
-  "output": "CMakeFiles/my_app.dir/chap4-1_type-alias/main.cc.o"
-}
-]

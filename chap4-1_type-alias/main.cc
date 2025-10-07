@@ -11,7 +11,8 @@ struct score
   rank_t r{};
 };
 
-auto main() -> int     {
+auto main() -> int 
+{
   const int default_point = 1000;
   const int default_rank = 1;
   
